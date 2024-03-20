@@ -1,9 +1,13 @@
 // src/schema/mod.rs
 mod response1;
 mod response2;
+mod post_request;
+mod response3;
 
 pub use response1::Response1;
 pub use response2::Response2;
+pub use post_request::RequestBody;
+pub use response3::Response3;
 
 
 // 在 main.rs 文件中:

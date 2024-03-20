@@ -2,7 +2,7 @@
 use serde::{Serialize, Deserialize};
 
 #[derive(Serialize, Deserialize, Debug)]
-pub struct Response1 {
+pub struct Response3 {
     pub message: String,
-    pub data: Vec<i32>,
+    pub data: String,
 }
